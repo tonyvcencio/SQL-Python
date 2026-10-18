@@ -1,4 +1,4 @@
-# SQL and Python Data Portfolio
+# SQL-Python: SQL and Python Data Portfolio
 
 This repository showcases practical examples of SQL querying and Python data manipulation. The examples are intentionally small enough to run locally, but they mirror common analytics tasks: cleaning messy records, joining business entities, creating summary metrics, ranking results, segmenting customers, and validating data quality.
 
@@ -68,4 +68,3 @@ sqlite3 portfolio.db < sql/queries/01_monthly_revenue.sql
 ```
 
 Replace the query filename with any file in `sql/queries`.
-
