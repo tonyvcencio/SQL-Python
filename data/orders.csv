@@ -1,0 +1,9 @@
+order_id,customer_id,order_date,order_total,status
+1001,C001,2025-03-05,129.97,completed
+1002,C002,2025-03-09,78.99,completed
+1003,C001,2025-04-01,204.47,completed
+1004,C003,2025-04-11,54.00,returned
+1005,C004,2025-05-02,278.99,completed
+1006,C005,2025-05-19,129.50,completed
+1007,C002,2025-06-03,78.99,completed
+1008,C001,2025-06-14,184.97,completed
