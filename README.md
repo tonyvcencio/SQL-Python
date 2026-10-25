@@ -68,3 +68,28 @@ sqlite3 portfolio.db < sql/queries/01_monthly_revenue.sql
 ```
 
 Replace the query filename with any file in `sql/queries`.
+
+## Validation & Results
+
+The repository was validated locally on macOS using Python 3 and SQLite.
+
+| Validation | Result |
+|---|---|
+| Python unit tests | 8 tests passed |
+| Python ETL pipeline | Executed successfully |
+| Generated customer summary | 4 customer records |
+| SQLite analytical queries | All 6 executed successfully |
+| SQL data-quality checks | 4 checks returned zero issues |
+| Revenue reconciliation | SQL and Python totals matched at $1,085.88 |
+
+### ETL Revenue by Region
+
+| Region | Revenue |
+|---|---:|
+| Midwest | $129.50 |
+| Northeast | $278.99 |
+| South | $157.98 |
+| West | $519.41 |
+| **Total** | **$1,085.88** |
+
+The Python ETL output reconciles with the SQL monthly revenue and customer lifetime value results. These checks confirm successful execution and consistency across the sample dataset; they do not constitute an exhaustive review of all business logic.
